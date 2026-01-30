@@ -34,32 +34,32 @@ java -jar target/file-converter.jar --input <input-file> --output <output-file>
 
 **CSV to JSON:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.csv --output output.json
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar -i examples/username.csv -o output.json
 ```
 
 **CSV to XML:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.csv --output output.xml
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar --input examples/username.csv --output output.xml
 ```
 
 **JSON to CSV:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.json --output output.csv
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar -i examples/username.json -o output.csv
 ```
 
 **JSON to XML:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.json --output output.xml
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar -i examples/username.json -o output.xml
 ```
 
 **XML to JSON:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.xml --output output.json
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar -i examples/username.xml -o output.json
 ```
 
 **XML to CSV:**
 ```bash
-java -jar target/file-converter.jar --input examples/username.xml --output output.csv
+java -jar target/file-converter-1.0.0-jar-with-dependencies.jar -i examples/username.xml -o output.csv
 ```
 
 ## Running Tests
